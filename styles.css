@@ -1,13 +1,14 @@
 body{
-  background-color: beige;
+  background-color: whitesmoke;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 
 ._topbar {
-  color: black;
+  color: white;
   display: flex; 
-  font-size: 25px;
+  background-color: black;
+  font-size: 20px;
   padding: 0 2px;
 }
 
@@ -20,16 +21,38 @@ body{
 }
 
 ._certificates {
-  margin-right: 10px
+  margin-right: 10px;
 }
 
-
 ._my_pic img{
-  height: 80px;
+  height: 30px;
   margin-right: 10px;
   border-radius: 50%;
 }
 
 ._backbutton1{
-  font-size:25px
+  font-size:25px;
 }
+
+._my_pic_center img {
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+._my_pic_center{
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  height: 100px;
+}
+
+._name {
+  font-style: oblique;
+  font-weight: bolder;
+  justify-content: center;
+  display: flex;
+  background-color: orange;
+}
+
+  
