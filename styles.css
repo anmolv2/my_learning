@@ -1,0 +1,35 @@
+body{
+  background-color: beige;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+
+._topbar {
+  color: black;
+  display: flex; 
+  font-size: 25px;
+  padding: 0 2px;
+}
+
+._me{
+  margin-right: 10px;
+}
+
+._projects {
+  margin-right: 10px;
+}
+
+._certificates {
+  margin-right: 10px
+}
+
+
+._my_pic img{
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+._backbutton1{
+  font-size:25px
+}
